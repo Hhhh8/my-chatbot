@@ -25,7 +25,6 @@ def get_retriever():
     vectorstore_path = "./vectorstore"
     embeddings = OpenAIEmbeddings()
     vectorstore = FAISS.load_local(vectorstore_path, embeddings)
-    st.write("get_retriever 함수 실행")
 
     return vectorstore.as_retriever()
 
