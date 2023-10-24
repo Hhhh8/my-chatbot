@@ -1,2 +1,6 @@
 # my-chatbot
-test
+
+### How to run
+```shell
+streamlit run main.py
+```
